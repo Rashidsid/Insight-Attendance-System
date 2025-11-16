@@ -16,10 +16,14 @@
   width: 50%;
   padding: 60px;
   color: white;
-  background: linear-gradient(180deg, #002d62, #00c4b3);
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-bottom-right-radius: 60px;
   border-top-right-radius: 60px;
 }
+
 
 .left h2 {
   font-size: 32px;
@@ -46,7 +50,9 @@
   font-size: 17px;
   line-height: 1.5;
   width: 85%;
+  margin-top: 400px;   /* adjust value as needed */
 }
+
 
 /* RIGHT SECTION */
 .right {
